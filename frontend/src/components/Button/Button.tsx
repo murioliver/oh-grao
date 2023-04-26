@@ -1,9 +1,9 @@
-import { ButtonContainer } from './Styled'
+import { ButtonContainer } from './Styled';
 
 type ButtonProps = {
   text: string
   children?: React.ReactNode
-}
+};
 
 export function Button({ text, children }: ButtonProps) {
   return (
@@ -12,4 +12,4 @@ export function Button({ text, children }: ButtonProps) {
       {children}
     </ButtonContainer>
   )
-}
+};

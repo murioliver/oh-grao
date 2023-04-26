@@ -1,5 +1,5 @@
-import { motion } from "framer-motion"
-import styled from "styled-components"
+import { motion } from "framer-motion";
+import styled from "styled-components";
 
 export const StartContainer = styled.main`
   gap: 4rem;
@@ -11,7 +11,7 @@ export const StartContainer = styled.main`
   @media (max-width: 767px) {
     grid-template-columns: 1fr;
   }
-`
+`;
 
 export const Content = styled(motion.div)`
   gap: 1.5rem;
@@ -43,7 +43,7 @@ export const Content = styled(motion.div)`
       line-height: 120%;
     }
   }
-`
+`;
 
 export const Form = styled(motion.form)`
   gap: 1rem;
@@ -73,7 +73,7 @@ export const Form = styled(motion.form)`
       grid-template-columns: 1fr;
     }
   }
-`
+`;
 
 export const InputBox = styled.div`
   display: flex;
@@ -109,4 +109,4 @@ export const InputBox = styled.div`
       padding: 1.125rem 1rem;
     }
   }
-`
+`;

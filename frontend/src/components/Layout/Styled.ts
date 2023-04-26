@@ -7,4 +7,4 @@ export const LayoutContainer = styled.div`
   max-width: 56rem;
   margin: 0 auto;
   padding: 2rem;
-`
+`;

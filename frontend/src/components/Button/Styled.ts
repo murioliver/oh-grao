@@ -24,4 +24,4 @@ export const ButtonContainer = styled.button`
   @media (max-width: 767px) {
     padding: 1.125rem 1rem;
   }
-`
+`;

@@ -1,5 +1,5 @@
-import { Layout } from "./components/Layout/Layout"
-import { Start } from "./components/Start/Start"
+import { Layout } from "./components/Layout/Layout";
+import { Start } from "./components/Start/Start";
 
 export function App() {
   return (
@@ -7,4 +7,4 @@ export function App() {
       <Start />
     </Layout>
   )
-}
+};

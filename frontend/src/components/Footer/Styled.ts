@@ -24,4 +24,4 @@ export const FooterContainer = styled(motion.footer)`
       }
     }
   }
-`
+`;

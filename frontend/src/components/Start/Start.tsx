@@ -1,8 +1,8 @@
-import { ArrowRight } from "@phosphor-icons/react"
-import { Button } from "../Button/Button"
-import { Content, Form, InputBox, StartContainer } from "./Styled"
+import { ArrowRight } from "@phosphor-icons/react";
+import { Button } from "../Button/Button";
+import { Content, Form, InputBox, StartContainer } from "./Styled";
 
-import Logo from "/assets/logo.webp"
+import Logo from "/assets/logo.webp";
 
 export function Start() {
   return (
@@ -46,4 +46,4 @@ export function Start() {
       </Form>
     </StartContainer>
   )
-}
+};

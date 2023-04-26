@@ -1,7 +1,7 @@
 import { FooterContainer } from "./Styled";
 
 export function Footer() {
-  const fullYear = new Date().getFullYear()
+  const fullYear = new Date().getFullYear();
 
   return (
     <FooterContainer>
@@ -35,4 +35,4 @@ export function Footer() {
       </ul>
     </FooterContainer>
   )
-}
+};
